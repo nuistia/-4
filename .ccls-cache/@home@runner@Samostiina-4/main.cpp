@@ -9,6 +9,7 @@ void meowFun()
 void branch2()
 {
     cout << "\nThis is the second branch.\n" ;
+    cout << "This is the third commit." ;
 }
 
 int main()
