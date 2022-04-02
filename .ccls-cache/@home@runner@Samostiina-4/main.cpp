@@ -6,6 +6,11 @@ void meowFun()
         cout << "Meow!";
 }
 
+void branch2()
+{
+    cout << "\nThis is the second branch.\n" ;
+}
+
 int main()
 {
 	int a[15], i, k = 0, s = 0;
@@ -22,5 +27,6 @@ int main()
 	cout << "Sum of even numbers: " << s << endl;
 	cout << "Quantity of even numbers: " << k << endl;
     meowFun();
+    branch2();
 	return 0;
 }
