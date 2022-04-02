@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+void meowFun()
+{
+        cout << "Meow!";
+}
+
 int main()
 {
 	int a[15], i, k = 0, s = 0;
@@ -16,5 +21,6 @@ int main()
 	}
 	cout << "Sum of even numbers: " << s << endl;
 	cout << "Quantity of even numbers: " << k << endl;
+    meowFun();
 	return 0;
 }
